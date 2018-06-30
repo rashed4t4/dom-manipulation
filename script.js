@@ -43,7 +43,7 @@ $("#btnGreen").click(function(){
 });
 
 $("#add").click(function(){
-    $("#ans").text('Result = ' + (Number($('#num1').val()) + Number($('#num2').val())));
+    $("#ans").text('The sum is ' + (Number($('#num1').val()) + Number($('#num2').val())));
     
 });
 
